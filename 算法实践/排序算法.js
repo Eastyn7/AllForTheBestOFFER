@@ -94,9 +94,13 @@ function quickSort(nums) {
   return [...quickSort(left), ...equal, ...quickSort(right)]
 }
 
-const arr = [2, 1, 0, 1, 2, 0, 0, 1, 2 , 0, 0, 1, 2, 2]
-measureTime(sortColors, arr)
-measureTime(bubbleSort, arr)
-measureTime(selectionSort, arr)
-measureTime(insertionSort, arr)
-measureTime(quickSort, arr)
+const arr1 = [2, 1, 0, 1, 2, 0, 0, 1, 2, 0, 0, 1, 2, 2];
+const arr2 = [2, 1, 0, 1, 2, 0, 0, 1, 2, 0, 0, 1, 2, 2];
+const arr3 = [2, 1, 0, 1, 2, 0, 0, 1, 2, 0, 0, 1, 2, 2];
+const arr4 = [2, 1, 0, 1, 2, 0, 0, 1, 2, 0, 0, 1, 2, 2];
+const arr5 = [2, 1, 0, 1, 2, 0, 0, 1, 2, 0, 0, 1, 2, 2];
+measureTime(sortColors, arr1)
+measureTime(bubbleSort, arr2)
+measureTime(selectionSort, arr3)
+measureTime(insertionSort, arr4)
+measureTime(quickSort, arr5)
