@@ -7,7 +7,7 @@ import { measureTime } from "./计算函数运行时间.js";
 // 暴力排序 (先平方，再排序)
 function sortedSquares1(nums) {
   const len = nums.length
-  let result = [len]
+  let result = new Array(len).fill(0)
   for (let i = 0; i < len; i++) {
     result[i] = nums[i]**2
   }
