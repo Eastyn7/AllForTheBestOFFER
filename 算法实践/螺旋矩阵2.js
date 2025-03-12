@@ -14,7 +14,6 @@ function generateMatrix(n) {
   let offset = 1 // 控制每一层填充元素个数
   let count = 1 // 更新填充数字
   let res = new Array(n).fill(0).map(() => new Array(n).fill(0))
-  console.log(res);
   
   while (loop--) {
     let row = startX, col = startY
